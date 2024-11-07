@@ -10,7 +10,9 @@ class Menu:
 
 
 def test():
-    pass
+    m = Menu()
+    m.greeting()
+    (m.listen())
 
 if __name__ == '__main__':
     test()
