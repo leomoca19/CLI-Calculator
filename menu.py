@@ -3,10 +3,10 @@ class Menu:
         print('Hi user, welcome to my calculator')
     
     def listen(self):
-        return input('select an option')
+        return input('select an option:')
 
     def exit(self):
-        pass
+        input('Goodbye user.\nPress enter to exit <Enter>')
 
 
 def test():

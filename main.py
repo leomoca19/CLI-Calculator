@@ -5,6 +5,6 @@ m = Menu()
 m.greeting()
 
 while m.listen() != 0:
-    pass
+    print('Listening...')
 
 m.exit()
