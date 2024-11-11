@@ -1,20 +1,33 @@
 class Calculator:
     def add(self):
-        pass
+        num1 = int(input('Input first number:'))
+        num2 = int(input('Input second number:'))
+
+        print('result is', num1 + num2)
 
     def subtract(self):
-        pass
+        num1 = int(input('Input first number:'))
+        num2 = int(input('Input second number:'))
+
+        print('result is', num1 - num2)
 
     def multiply(self):
-        pass
+        num1 = int(input('Input first number:'))
+        num2 = int(input('Input second number:'))
+
+        print('result is', num1 * num2)
 
     def divide(self):
-        pass
+        num1 = int(input('Input first number:'))
+        num2 = int(input('Input second number:'))
+
+        print('result is', num1 // num2)
 
 
 def test():
-    pass
-
+    c = Calculator()
+    c.multiply()
+    
 if __name__ == '__main__':
     test()
     
